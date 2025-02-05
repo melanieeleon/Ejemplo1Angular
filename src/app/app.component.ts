@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ContactoComponent } from './shared/contacto/contacto.component';
+import { AlbumComponent } from './shared/album/album.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ContactoComponent],
+  imports: [RouterOutlet, ContactoComponent, AlbumComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
