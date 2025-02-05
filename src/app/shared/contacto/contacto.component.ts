@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 export class ContactoComponent {
   titulo: string="Contactos" //string interpolation un atributo que reemplazar al titulo de contactos en el html
 
+  medios: any[] = [
+    {"texto": "En Twitter"},
+    {"texto": "En Facebook"},
+    {"texto": "Por correo electronico"}
+  ]
+
 }
