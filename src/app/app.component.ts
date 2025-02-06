@@ -5,11 +5,12 @@ import { AlbumComponent } from './shared/album/album.component';
 import { CardComponent } from './shared/card/card.component';
 import { RecursosService } from './servicios/recursos.service';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './shared/footer/footer.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ContactoComponent, AlbumComponent, CardComponent, HttpClientModule],
+  imports: [RouterOutlet, ContactoComponent, AlbumComponent, CardComponent,FooterComponent ,HttpClientModule],
   providers:[RecursosService],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
