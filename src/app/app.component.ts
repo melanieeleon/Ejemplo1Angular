@@ -6,11 +6,13 @@ import { CardComponent } from './shared/card/card.component';
 import { RecursosService } from './servicios/recursos.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './shared/footer/footer.component';
+import { MenuComponent } from "./shared/menu/menu.component";
+
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ContactoComponent, AlbumComponent, CardComponent,FooterComponent ,HttpClientModule],
+  imports: [RouterOutlet, ContactoComponent, AlbumComponent, CardComponent, FooterComponent, HttpClientModule, MenuComponent],
   providers:[RecursosService],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
